@@ -29,6 +29,7 @@ public class TimelineActivity extends AppCompatActivity {
     EndlessRecyclerViewScrollListener scrollListener;
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

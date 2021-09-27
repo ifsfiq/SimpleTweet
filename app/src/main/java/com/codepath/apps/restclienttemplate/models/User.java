@@ -7,12 +7,14 @@ public class User {
     public String name;
     public String screenName;
     public String profileImageUrl;
+    //public String createdAt;
 
     public static User fromJson(JSONObject jsonObject) throws JSONException {
         User user = new User();
         user.name = jsonObject.getString("name");
         user.screenName = jsonObject.getString("screen_name");
         user.profileImageUrl = jsonObject.getString("profile_image_url_https");
+        //user.createdAt = jsonObject.getString(" created_at");
         return user;
     }
 }

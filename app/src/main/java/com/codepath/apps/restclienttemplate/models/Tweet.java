@@ -33,10 +33,7 @@ public class Tweet {
         return tweets;
     }
 
-//    public static String getFormattedTimestamp(){
-//        Tweet tweetTime = new Tweet();
-//        return TimeFormatter.getTimeDifference(tweetTime.createdAt);
-//
-//
-//    }
+    public static String getFormattedTimestamp(Tweet tweet){
+        return TimeFormatter.getTimeDifference(tweet.createdAt);
+    }
 }
