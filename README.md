@@ -65,7 +65,7 @@ A challenge that I faced when building the app was trying to figure out how to i
     See the License for the specific language governing permissions and
     limitations under the License.
 
-# Project 2 - *SimpleTweet Part 1
+# Project 2 - *SimpleTweet Part 1*
 
 **SimpleTweet** is an android app that allows a user to view his Twitter timeline. The app utilizes [Twitter REST API](https://dev.twitter.com/rest/public).
 
